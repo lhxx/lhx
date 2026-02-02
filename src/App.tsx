@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { Trophy, ClipboardCheck, Plus, Trash2, User, Star, Calendar, ChevronDown, Target, Users, Sparkles, Database, Wifi, WifiOff, RefreshCw, Pencil, X } from 'lucide-react'
+import { Trophy, ClipboardCheck, Plus, Trash2, Star, Calendar, ChevronDown, Target, Users, Sparkles, Database, Wifi, WifiOff, RefreshCw, Pencil, X } from 'lucide-react'
 import { supabase, episodeApi, brandApi, type Episode, type Brand } from './lib/supabase'
 
 type JudgeKey = 'judge1' | 'judge2' | 'judge3'
@@ -744,3 +744,4 @@ function App() {
 }
 
 export default App
+
